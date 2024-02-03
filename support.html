@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>service</title>
+  <style>
+    body {
+    font-size: 15pt;
+    text-align: center;
+}
+
+nav {
+      background-color: white;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    }
+    
+    nav img {
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+    
+    nav a{
+      text-decoration: none;
+      color: black ;
+      
+      
+    }
+        .container {
+    
+      align-items: center;
+      padding: 20px;
+    }
+#services {
+  width: 100%;
+  margin-left: auto;
+  margin-right: 150%;
+  padding: 200px 100px
+  text-align: center;
+  
+}
+
+.title {
+  text-transform: uppercase;
+  color: #1f67db;
+  letter-spacing: 1px;
+  font-size: 45px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c7adab;
+  box-shadow: 5px 5px 10px #3D474B;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  height: 170px;
+}
+
+
+.bgcard {
+  background-color: lightgray;
+  z-index: 100000;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: .8;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  height: 240px;
+}
+
+.card:hover .bgcard {
+  opacity: 0;
+}
+
+.card ion-icon {
+  font-size: 65px;
+  margin-bottom: 10px;
+  position: absolute;
+  z-index: 10000000;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+
+.html {
+  color: #ED6915;
+}
+
+.css {
+  color: #4269F5;
+}
+
+.js {
+  color: #D5D649;
+}
+
+.card:hover ion-icon {
+  position: static;
+  transform: translateY(0);
+}
+
+.card h3 {
+  color: #1f67db;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.ser{
+  width: 150px;
+  margin: 10px;
+}
+  </style>
+</head>
+
+<body>
+        <nav>
+      <img src="/Screenshot_20240102-203848.jpg" alt="Logo">
+    <ul>
+     
+   
+            <li><a href="/home.html">home</a></li>
+    </ul>
+    </nav>
+         <section id="skills">
+    <h1 class="title">Support</h1>
+    <div class="cards">
+     
+      <div class="card">
+        <div class="bgcard"></div>
+        <ion-icon name="logo-html5" class="html"></ion-icon>
+        <h3></h3>
+        <p>message me in tiktok when you have a problem
+        <br>👇 
+        <br>gheelladoguevara</p>
+      </div>
+</body>
+
+</html>
